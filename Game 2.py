@@ -1,4 +1,4 @@
-print("*" * 8, " ИГРА МОРСКОЙ БОЙ ", "*" * 8)
+
 
 class BoardException(Exception):
     pass
