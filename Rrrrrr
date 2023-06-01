@@ -1,0 +1,10 @@
+import telebot
+
+TOKEN = '6016126051:AAH6vcL8k-SQPcN2_vrvskUYhd9DI1JLa40'
+
+bot = telebot.TeleBot(TOKEN)
+
+@bot.message_handler ()
+def echo_test (message: telebot.types .Message):
+    bot. send message(message.chat.1d, "hello" )
+bot.pollingo()
