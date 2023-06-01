@@ -7,4 +7,4 @@ bot = telebot.TeleBot(TOKEN)
 @bot.message_handler ()
 def echo_test (message: telebot.types .Message):
     bot. send message(message.chat.1d, "hello" )
-bot.pollingo()
+bot.polling()
