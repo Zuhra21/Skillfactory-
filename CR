@@ -36,4 +36,4 @@ r = requests.get(f"https://api.exchangeratesapi.io/latest?base={base_key}&symbol
 resp = json.loads(r.content)
 new_price = resp['rates'][sym_key] * amount
 
-print(new_price)
+print(new_price) 
